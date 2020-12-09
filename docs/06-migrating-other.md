@@ -60,11 +60,11 @@ HttpHandlers were a low-ceremony way to provide direct interaction with the Http
 
 ```csharp
 app.MapWhen(
-  context => context.Request.Path.ToString().EndsWith(".foo"),
+  context => context.Request.Path.ToString().EndsWith(".ashx"),
   appBranch => {
     appBranch.Use(ctx, next) => {
       // do my task
-      Console.WriteLine("Foo was requested");
+      Console.WriteLine("My handler was requested");
     }
   });
 ```
