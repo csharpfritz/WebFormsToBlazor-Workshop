@@ -112,6 +112,8 @@ Not all applications will migrate smoothly. We suggest you evaluate and update t
 
 ### .NET Standard
 
+[__.NET Standard Compatibility Table, up to .NET Standard 2.0__](https://github.com/dotnet/standard/blob/master/docs/versions.md)
+
 ![.NET Standard Compatibility](img/02-dotnetstandard.png)
 
 .NET Standard is a formal specification of .NET APIs that are available on multiple .NET implementations. The motivation behind .NET Standard was to establish greater uniformity in the .NET ecosystem.
